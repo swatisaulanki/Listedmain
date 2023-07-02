@@ -1,0 +1,123 @@
+
+.maindetaildiv{
+    background-color: black;
+    /* border: 2px solid red; */
+    height: 97.5vh;
+    width: 15%;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.users{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white;
+    width: 55%;
+    margin: auto;
+    font-size: 17px;
+
+}
+
+.setings{
+    display: flex;
+    /* border: 2px solid rgb(0, 255, 60); */
+    color: white;
+    width: 55%;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.dashed{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white; 
+    width: 55%;
+    margin: auto;
+    font-size: 17px;
+    justify-content: space-around;
+
+}
+.trans{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white; 
+    width: 55%;
+    margin: auto;
+    font-size: 17px;
+    justify-content: space-around;
+
+
+}
+.sched{
+    display: flex;
+    /* border: 2px solid red; */
+    color: white; 
+    width: 55%;
+    font-size: 17px;
+    justify-content: space-around;
+
+
+    margin: auto;
+}
+
+.ciuser{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.ciSettings{
+    font-size: 19px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+/* .transimg{
+    border:2px solid white;
+    height:30px;
+} */
+.transimg img{
+    height:32px ;
+    margin-top: 13px;
+}
+.dashed img{
+    margin-top: 14px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+.sched img{
+    margin-top: 14px;
+    height: 30px;
+    margin-left: -12px;
+}
+
+.divuser p{
+    font-size: 17px;
+    margin-left: 14px;
+}
+.setp p{
+    font-size: 17px;
+    margin-left: -30px;
+}
+.dashp p{
+    margin-left: -18px;
+}
+.schedp p{
+    margin-left: -20px;
+}
+
+.helpdiv{
+    margin-top: 90%;
+}
+.helpdivp p{
+    /* border: 2px solid red; */
+    width: 56px;
+    margin: auto;
+    text-align: left;
+    font-size: 13px;
+
+}
+
+.contactp p{
+    font-size: 13px;
+}

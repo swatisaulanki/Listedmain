@@ -1,0 +1,194 @@
+.mainhead{
+    display: flex;
+    justify-content: space-around;
+}
+.hmain{
+    /* border:2px solid red; */
+    width: 82%;  
+}
+.navdivs{
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 15vw;
+    height: 5vh;
+    margin-top: 10px;
+  }
+  
+  .searchbox input[type='text'] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .cisearch{
+   font-size: 20px;
+  }
+  .divcibell{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+  }
+  .cibell{
+    font-size: 27px;
+    margin-top: 14px;
+  }
+  .imgnav{
+    /* border:2px solid red; */
+      margin-left: 10px;
+  }
+  .imgnav img{
+   margin-top: 12px;
+   height: 30px;
+   width:30px;
+    border-radius: 20px;
+  }
+.hcontain{
+    /* border:2px solid red; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+    justify-content: space-between;
+}
+/* .hcontain img{
+    height: 22px;
+    width:20px;
+    border-radius: 20px;
+    margin-top: 10%;
+} */
+.total{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.maintpro{
+    /* border:2px solid red; */
+        justify-content: space-around;
+        display: flex;
+}
+.tpro{
+    display: flex;
+    /* border:2px solid red; */
+}
+
+.totallikes{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 15%;
+    justify-content: space-around;
+    background-color: rgb(235, 248, 222);
+    border-radius: 8px;
+}
+.ailikes{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.paradiv{
+    margin-top: 20px;
+}
+
+
+.totalr{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 15%;
+    justify-content: space-around;
+    background-color: rgb(214, 244, 233);
+    border-radius: 8px;
+
+}
+.totalr img{
+    border-radius: 80%;
+
+}
+
+.totalt{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 15%;
+    justify-content: space-around;
+    background-color: #f6f0e6;
+    border-radius: 8px;
+
+}
+.totalt img{
+    border-radius: 80%;
+
+}
+.totalu{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 15%;
+    justify-content: space-around;
+    background-color: rgb(219, 219, 252);
+    border-radius: 8px;
+
+}
+.totalu img{
+    border-radius: 20%;
+}
+
+/* bottom div */
+
+
+
+/* total products */
+
+.tproductcontain{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.tpdiv{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 28vw;
+    justify-content: space-around;
+    background-color: #f7f3f3;
+
+}
+
+.mainbasic{
+    display: flex;
+    /* border: 1px solid rgb(0, 255, 8); */
+    justify-content: space-around;
+    width: 28vw;
+    background-color: #f7f3f3;
+
+
+}
+
+.mainbasic div{
+    /* border: 2px solid black; */
+    text-align:left;
+
+}
+.mainbasic img{
+    height: 24vh;
+    width:12vw;
+    margin-top: 20px;
+}
+.charts{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 45%;
+    justify-content: space-around;
+    background-color: #f7f3f3;
+
+}
+.charts div{
+    text-align: left;
+}

@@ -1,0 +1,262 @@
+.maincomponents{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boardh1{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 89.7vh;
+    background-color: black;
+    margin-left: 5%;
+}
+.boardh1 h1{
+    color: white;
+    margin-top: 30%;
+}
+.signmain{
+    /* border: 2px solid red; */
+    height: 15vh;
+    margin: auto;
+}
+.logincontain{
+    height: 70vh;
+    width: 32%;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.signacc{
+    /* border: 2px solid red; */
+    width: 57%;
+}
+.signacc h2{
+    /* border: 2px solid red; */
+    width: 80%;
+    font-size: 25px;
+}
+.signacc p{
+    /* border: 2px solid red; */
+    width: 80%;
+    font-size: 13px;
+    margin-left: 23px;
+    font-weight: 500;
+}
+
+.googsign{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    
+}
+.googsignf{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-left: 5%;
+    background-color: rgb(246, 246, 255);
+    border-radius: 6px;
+
+}
+.googsigns{
+    display: flex;
+    width: 30%;
+    background-color: rgb(246, 246, 255);
+
+    border-radius: 6px;
+
+}
+.imgs img{
+height:23px;
+margin-top: 8px;
+border-radius: 30px;
+}
+.emaildiv{
+    height: 55vh;
+
+
+}
+.emaildiv h2{
+    font-size: 30px;
+    width: 30%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+
+.email input{
+    border: 2px solid rgb(151, 201, 254);
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.pass input{
+    border: 2px solid rgb(151, 201, 254);
+
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.emailhead{
+    width: 5vw;
+    margin-left:14%;
+    width: 30%;
+
+}
+.emailhead p{
+    font-size: 18px;
+    /* border: 2px solid red; */
+}
+.passhead{
+    width: 5vw;
+    margin-left:18%;
+}
+.passhead p{
+    font-size: 18px;
+
+}
+.submit input{
+    border: none;
+    width: 20.5vw;
+    height: 5.9vh;
+    margin-top: 32px;
+    font-size: 21px;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+}
+.submit input:hover{
+    background-color: rgb(0, 204, 255);
+    }
+    
+ #light.logincontain{
+    background-color: white;
+ }
+
+.forgotpass{
+    /* border: 2px solid red; */
+    width: 62%;
+}
+.forgotpass p{
+    color: rgb(50, 114, 204);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:800px){
+    .logincontain{
+        height: 55vh;
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .emaildiv{
+        height: 55vh;
+    
+    
+    }
+    .email input{
+        border: 2px solid rgb(151, 201, 254);
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    
+    .pass input{
+        border: 2px solid rgb(151, 201, 254);
+    
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    .submit input{
+        border: none;
+        width: 35vw;
+        height: 6vh;
+        margin-top: 32px;
+        font-size: 21px;
+        border-radius: 5px;
+        background-color: teal;
+        color: white;
+    }
+
+    .emailhead{
+        width: 5vw;
+        margin-left:8%;
+    }
+
+    .passhead{
+        width: 5vw;
+        margin-left:8%;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    
+    .logincontain{
+        height: 60vh;
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .emaildiv{
+        height: 55vh;
+    
+    
+    }
+    
+
+    .email input{
+        border: 2px solid rgb(151, 201, 254);
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    
+    .pass input{
+        border: 2px solid rgb(151, 201, 254);
+    
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+
+    .submit input{
+        border: none;
+        width: 45vw;
+        height: 6vh;
+        margin-top: 32px;
+        font-size: 21px;
+        border-radius: 5px;
+        background-color: teal;
+        color: white;
+    }
+
+    .emailhead{
+        width: 5vw;
+        margin-left:5%;
+    }
+   
+    .passhead{
+        width: 5vw;
+        margin-left:5%;
+    }
+    
+}
